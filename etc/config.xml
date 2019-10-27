@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <compraloredirect>
+                <active>1</active>
+                <title>Compralo</title>
+                <order_status_authorize>pending</order_status_authorize>
+                <instructions>Instruction.</instructions>
+                <payment_action>authorize</payment_action>
+                <model>Compralo\Payments\Model\Payment\Redirect</model>
+                <group>offline</group>
+            </compraloredirect>
+            <!-- payment-config -->
+        </payment>
+    </default>
+</config>

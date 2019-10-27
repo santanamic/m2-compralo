@@ -1,0 +1,11 @@
+<?php $postData = $this->getPostData(); ?>
+
+<form id="tocompralowebsite" action="<?php echo $this->getPostUrl(); ?>" method="GET">
+    <p><?php echo __("You will be transferred to <strong>Compralo</strong> secure payment environment. <input type='submit' value='Click here'> if you are not automatically transferred."); ?>
+</form>
+
+<script type="text/javascript">
+setTimeout(function(){ 
+	document.getElementById("tocompralowebsite").submit();
+}, 3000);
+</script>

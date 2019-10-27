@@ -1,0 +1,21 @@
+{
+    "name": "compralo/magento2-module",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "williansantanamic@gmail.com",
+            "name": "WILLIAN SANTANA"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Compralo\\Payments\\": ""
+        }
+    }
+}
